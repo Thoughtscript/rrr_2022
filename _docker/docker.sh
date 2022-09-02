@@ -7,7 +7,7 @@ docker login -u <username> -p <"password">
 ## Use this over `docker build - < Dockerfile`
 ## Note that the dockerfile copies in ANY files in this directory
 docker build .
-## Get the CONTAINER ID <aa9f01c38d04>from the end of this
+## Get the IMAGE ID <aa9f01c38d04>from the end of this
 docker images --all
 
 # Start and connect to the docker CONTAINER

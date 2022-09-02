@@ -8,8 +8,9 @@
 
 /** Core React */
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 /** Custom  */
 import App from './Components/App'
 
-ReactDOM.render(<App />, document.getElementById('react_app_root'))
+const root = ReactDOM.createRoot(document.getElementById('react_app_root'))
+root.render(<App />)

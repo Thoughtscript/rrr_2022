@@ -70,3 +70,10 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+#####################
+#       CUSTOM      #
+#####################
+
+# postgres
+gem 'pg', '1.4.3'

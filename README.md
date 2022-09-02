@@ -25,6 +25,8 @@ bundle install
 ### React Client
 
 ```Bash
+nvm install 16.17.0
+nvm use 16.17.0
 npm i
 npm i npx
 ```
@@ -41,26 +43,17 @@ See [the Docker directory](_docker/1%20-%20dockerfile/docker.sh).
 
 ### React Client
 
+> From within the [React](_react) directory.
+
 Start it up:
 
 ```ZSH
 npm run build-parcel-prod
 npm run build-parcel
-```
-
-After you've compiled the React app the first time, you can skip building and load the static app directly via:
-
-```ZSH
-# Parcel
 npx serve
-
-# Webpack
-npm run live 
 ```
 
-> You may need to uncomment or comment out the correct line (**44**) in [index.html](public/index.html#L44)
-
-> By default, the http server will serve from http://localhost:1234/ or http://localhost:8181
+> By default, NPX and parcel will serve from: http://localhost:1234/
 
 Shut it down:
 
@@ -68,3 +61,18 @@ Shut it down:
 npm run stop-win
 nom run stop-linux
 ```
+
+### Rails
+
+> From within the [Ruby/Web](_ruby/web) directory.
+
+```ZSH
+rails db:create
+rails server --binding=127.0.0.1
+```
+
+> By default, the Ruby on Rails server will server from: http://localhost:3000/
+
+## Helpful Resources
+
+1. https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-macos
