@@ -37,6 +37,8 @@ You can launch the example app individually or using Docker Compose.
 
 ### Postgres Docker
 
+See [the Docker directory](_docker/1%20-%20dockerfile/docker.sh).
+
 ### React Client
 
 Start it up:
