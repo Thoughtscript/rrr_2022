@@ -76,3 +76,4 @@ rails server --binding=127.0.0.1
 ## Helpful Resources
 
 1. https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-macos
+2. https://bobbyhadz.com/blog/react-router-not-found-page

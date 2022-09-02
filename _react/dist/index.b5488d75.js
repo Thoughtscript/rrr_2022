@@ -5694,12 +5694,12 @@ exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterD
                     lineNumber: 22,
                     columnNumber: 13
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Switch), {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                             exact: true,
                             path: (0, _constants.BASE_PATH),
-                            component: (0, _landingPageDefault.default)
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _landingPageDefault.default), {}, void 0, false, void 0, void 0)
                         }, void 0, false, {
                             fileName: "reactAppSrc/Components/Navigation/Router/index.jsx",
                             lineNumber: 24,
@@ -5708,14 +5708,15 @@ exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterD
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                             exact: true,
                             path: (0, _constants.HOME_PATH),
-                            component: (0, _landingPageDefault.default)
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _landingPageDefault.default), {}, void 0, false, void 0, void 0)
                         }, void 0, false, {
                             fileName: "reactAppSrc/Components/Navigation/Router/index.jsx",
                             lineNumber: 25,
                             columnNumber: 17
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                            component: (0, _pageNotFoundPageDefault.default)
+                            path: "*",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _pageNotFoundPageDefault.default), {}, void 0, false, void 0, void 0)
                         }, void 0, false, {
                             fileName: "reactAppSrc/Components/Navigation/Router/index.jsx",
                             lineNumber: 26,
@@ -5749,7 +5750,7 @@ exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterD
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","../../Presentation/CustomHeader":"4ytKm","./Router.css":"l1i4e","../../../Constants":"1gEz6","../../Presentation/LandingPage":"3FMDF","../../Presentation/PageNotFoundPage":"96LB1","../../Presentation/CustomFooter":"hUG8K","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fdOAw":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","../../Presentation/CustomHeader":"4ytKm","./Router.css":"l1i4e","../../../Constants":"1gEz6","../../Presentation/CustomFooter":"hUG8K","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../Presentation/LandingPage":"3FMDF","../../Presentation/PageNotFoundPage":"96LB1"}],"fdOAw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
@@ -7717,7 +7718,108 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"kGlv9":[function() {},{}],"l1i4e":[function() {},{}],"3FMDF":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"kGlv9":[function() {},{}],"l1i4e":[function() {},{}],"hUG8K":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$255a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$255a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+/**
+ *  CustomFooter.
+ *
+ *  @Author - Adam InTae Gerard - https://www.linkedin.com/in/adamintaegerard/
+ */ var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _customLink = require("../CustomLink");
+var _customLinkDefault = parcelHelpers.interopDefault(_customLink);
+var _customFooterCss = require("./CustomFooter.css");
+"use strict";
+exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _customLinkDefault.default), {
+                        url: "https://www.linkedin.com/in/adamintaegerard/",
+                        label: "LinkedIn"
+                    }, void 0, false, {
+                        fileName: "reactAppSrc/Components/Presentation/CustomFooter/index.jsx",
+                        lineNumber: 16,
+                        columnNumber: 17
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "reactAppSrc/Components/Presentation/CustomFooter/index.jsx",
+                    lineNumber: 16,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _customLinkDefault.default), {
+                        url: "https://thoughtscript.io/landing.html",
+                        label: "Thoughtscript.io"
+                    }, void 0, false, {
+                        fileName: "reactAppSrc/Components/Presentation/CustomFooter/index.jsx",
+                        lineNumber: 17,
+                        columnNumber: 17
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "reactAppSrc/Components/Presentation/CustomFooter/index.jsx",
+                    lineNumber: 17,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "reactAppSrc/Components/Presentation/CustomFooter/index.jsx",
+            lineNumber: 15,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "reactAppSrc/Components/Presentation/CustomFooter/index.jsx",
+        lineNumber: 14,
+        columnNumber: 5
+    }, undefined);
+
+  $parcel$ReactRefreshHelpers$255a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../CustomLink":"64nap","./CustomFooter.css":"2X6qN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"64nap":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7c22 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7c22.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+/**
+ *  Custom anchor boilerplate with rel security.
+ *
+ *  @Author - Adam InTae Gerard - https://www.linkedin.com/in/adamintaegerard/
+ */ var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+"use strict";
+exports.default = ({ url , label  })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+        href: url,
+        rel: "nofollow noopener noreferrer",
+        target: "_blank",
+        children: label
+    }, void 0, false, {
+        fileName: "reactAppSrc/Components/Presentation/CustomLink/index.jsx",
+        lineNumber: 11,
+        columnNumber: 34
+    }, undefined);
+
+  $parcel$ReactRefreshHelpers$7c22.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2X6qN":[function() {},{}],"3FMDF":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$89c1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -7936,108 +8038,7 @@ exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./PageNotFoundPage.css":"gGVOz","../YouTubeComponent":"18xmK","../UnsplashSection":"7nCWP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gGVOz":[function() {},{}],"hUG8K":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$255a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$255a.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/**
- *  CustomFooter.
- *
- *  @Author - Adam InTae Gerard - https://www.linkedin.com/in/adamintaegerard/
- */ var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _customLink = require("../CustomLink");
-var _customLinkDefault = parcelHelpers.interopDefault(_customLink);
-var _customFooterCss = require("./CustomFooter.css");
-"use strict";
-exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _customLinkDefault.default), {
-                        url: "https://www.linkedin.com/in/adamintaegerard/",
-                        label: "LinkedIn"
-                    }, void 0, false, {
-                        fileName: "reactAppSrc/Components/Presentation/CustomFooter/index.jsx",
-                        lineNumber: 16,
-                        columnNumber: 17
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "reactAppSrc/Components/Presentation/CustomFooter/index.jsx",
-                    lineNumber: 16,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _customLinkDefault.default), {
-                        url: "https://thoughtscript.io/landing.html",
-                        label: "Thoughtscript.io"
-                    }, void 0, false, {
-                        fileName: "reactAppSrc/Components/Presentation/CustomFooter/index.jsx",
-                        lineNumber: 17,
-                        columnNumber: 17
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "reactAppSrc/Components/Presentation/CustomFooter/index.jsx",
-                    lineNumber: 17,
-                    columnNumber: 13
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "reactAppSrc/Components/Presentation/CustomFooter/index.jsx",
-            lineNumber: 15,
-            columnNumber: 9
-        }, undefined)
-    }, void 0, false, {
-        fileName: "reactAppSrc/Components/Presentation/CustomFooter/index.jsx",
-        lineNumber: 14,
-        columnNumber: 5
-    }, undefined);
-
-  $parcel$ReactRefreshHelpers$255a.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../CustomLink":"64nap","./CustomFooter.css":"2X6qN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"64nap":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$7c22 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$7c22.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/**
- *  Custom anchor boilerplate with rel security.
- *
- *  @Author - Adam InTae Gerard - https://www.linkedin.com/in/adamintaegerard/
- */ var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-"use strict";
-exports.default = ({ url , label  })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-        href: url,
-        rel: "nofollow noopener noreferrer",
-        target: "_blank",
-        children: label
-    }, void 0, false, {
-        fileName: "reactAppSrc/Components/Presentation/CustomLink/index.jsx",
-        lineNumber: 11,
-        columnNumber: 34
-    }, undefined);
-
-  $parcel$ReactRefreshHelpers$7c22.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2X6qN":[function() {},{}],"hRl9m":[function() {},{}],"dEvDk":[function() {},{}],"lOjBx":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./PageNotFoundPage.css":"gGVOz","../YouTubeComponent":"18xmK","../UnsplashSection":"7nCWP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gGVOz":[function() {},{}],"hRl9m":[function() {},{}],"dEvDk":[function() {},{}],"lOjBx":[function(require,module,exports) {
 "use strict";
 var m = require("react-dom");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
