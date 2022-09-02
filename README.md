@@ -13,6 +13,8 @@ You'll need:
 3. [Ruby](https://www.ruby-lang.org/en/) - make sure to install with MYSYS2 and with the DevKit (the dependency is required for Rails)
 4. [pgadmin](https://www.pgadmin.org/)
 
+### Ruby
+
 ```Bash
 gem bundle install
 gem update bundler
@@ -20,20 +22,26 @@ cd ./_ruby
 bundle install
 ```
 
+### React Client
+
+```Bash
+npm i
+npm i npx
+```
+
 ## Use
+
+You can launch the example app individually or using Docker Compose.
 
 ### Docker Compose
 
 ### Postgres Docker
-
-
 
 ### React Client
 
 Start it up:
 
 ```ZSH
-npm i
 npm run build-parcel-prod
 npm run build-parcel
 ```
@@ -41,12 +49,16 @@ npm run build-parcel
 After you've compiled the React app the first time, you can skip building and load the static app directly via:
 
 ```ZSH
-npm run live
+# Parcel
+npx serve
+
+# Webpack
+npm run live 
 ```
 
-> You will need to comment out the correct line (**44**) in [index.html](public/index.html#L44)
+> You may need to uncomment or comment out the correct line (**44**) in [index.html](public/index.html#L44)
 
-> By default, the http server will serve from http://localhost:8181
+> By default, the http server will serve from http://localhost:1234/ or http://localhost:8181
 
 Shut it down:
 

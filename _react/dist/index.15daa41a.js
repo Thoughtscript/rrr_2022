@@ -1066,7 +1066,7 @@ try {
   var _reactDomDefault = _parcelHelpers.interopDefault(_reactDom);
   var _ComponentsApp = require('./Components/App');
   var _ComponentsAppDefault = _parcelHelpers.interopDefault(_ComponentsApp);
-  var _jsxFileName = "G:\\mtg_fab_anti_fraud\\Client\\reactAppSrc\\entry.jsx";
+  var _jsxFileName = "G:\\react_2021\\reactAppSrc\\entry.jsx";
   _reactDomDefault.default.render(/*#__PURE__*/_reactDefault.default.createElement(_ComponentsAppDefault.default, {
     __self: undefined,
     __source: {
@@ -26478,7 +26478,7 @@ try {
   var _NavigationRouterDefault = _parcelHelpers.interopDefault(_NavigationRouter);
   require('./Application.css');
   require('./Mobile.css');
-  var _jsxFileName = "G:\\mtg_fab_anti_fraud\\Client\\reactAppSrc\\Components\\App.jsx";
+  var _jsxFileName = "G:\\react_2021\\reactAppSrc\\Components\\App.jsx";
   exports.default = () => /*#__PURE__*/_reactDefault.default.createElement(_NavigationRouterDefault.default, {
     __self: undefined,
     __source: {
@@ -26515,7 +26515,7 @@ try {
   var _PresentationPageNotFoundPageDefault = _parcelHelpers.interopDefault(_PresentationPageNotFoundPage);
   var _PresentationCustomFooter = require("../../Presentation/CustomFooter");
   var _PresentationCustomFooterDefault = _parcelHelpers.interopDefault(_PresentationCustomFooter);
-  var _jsxFileName = "G:\\mtg_fab_anti_fraud\\Client\\reactAppSrc\\Components\\Navigation\\Router\\index.jsx";
+  var _jsxFileName = "G:\\react_2021\\reactAppSrc\\Components\\Navigation\\Router\\index.jsx";
   exports.default = () => /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
     __self: undefined,
     __source: {
@@ -30536,7 +30536,7 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _NavigationMenu = require('../../Navigation/Menu');
   require('./CustomHeader.css');
-  var _jsxFileName = "G:\\mtg_fab_anti_fraud\\Client\\reactAppSrc\\Components\\Presentation\\CustomHeader\\index.jsx";
+  var _jsxFileName = "G:\\react_2021\\reactAppSrc\\Components\\Presentation\\CustomHeader\\index.jsx";
   exports.default = () => /*#__PURE__*/_reactDefault.default.createElement("header", {
     __self: undefined,
     __source: {
@@ -30581,7 +30581,7 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _reactRouterDom = require('react-router-dom');
   var _Constants = require('../../../Constants');
-  var _jsxFileName = "G:\\mtg_fab_anti_fraud\\Client\\reactAppSrc\\Components\\Navigation\\Menu\\index.jsx";
+  var _jsxFileName = "G:\\react_2021\\reactAppSrc\\Components\\Navigation\\Menu\\index.jsx";
   let w = window.location.pathname;
   class Menu extends _reactDefault.default.Component {
     constructor(props) {
@@ -30863,7 +30863,7 @@ try {
   require('./LandingPage.css');
   var _YouTubeComponent = require("../YouTubeComponent");
   var _YouTubeComponentDefault = _parcelHelpers.interopDefault(_YouTubeComponent);
-  var _jsxFileName = "G:\\mtg_fab_anti_fraud\\Client\\reactAppSrc\\Components\\Presentation\\LandingPage\\index.jsx";
+  var _jsxFileName = "G:\\react_2021\\reactAppSrc\\Components\\Presentation\\LandingPage\\index.jsx";
   exports.default = () => /*#__PURE__*/_reactDefault.default.createElement("main", {
     className: "landingPage",
     __self: undefined,
@@ -30925,7 +30925,7 @@ try {
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   require('./UnsplashSection.css');
-  var _jsxFileName = "G:\\mtg_fab_anti_fraud\\Client\\reactAppSrc\\Components\\Presentation\\UnsplashSection\\index.jsx";
+  var _jsxFileName = "G:\\react_2021\\reactAppSrc\\Components\\Presentation\\UnsplashSection\\index.jsx";
   const STYLE = (photo, ixid) => {
     return {
       'backgroundImage': `url('https://images.unsplash.com/photo-${photo}?ixlib=rb-1.2.1&ixid=${ixid}&auto=format&fit=crop&w=1000&q=80')`
@@ -30962,7 +30962,7 @@ try {
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   require('./YouTubeComponent.css');
-  var _jsxFileName = "G:\\mtg_fab_anti_fraud\\Client\\reactAppSrc\\Components\\Presentation\\YouTubeComponent\\index.jsx";
+  var _jsxFileName = "G:\\react_2021\\reactAppSrc\\Components\\Presentation\\YouTubeComponent\\index.jsx";
   exports.default = ({className, url}) => /*#__PURE__*/_reactDefault.default.createElement("div", {
     className: `${className} youtube`,
     __self: undefined,
@@ -31007,7 +31007,7 @@ try {
   var _YouTubeComponentDefault = _parcelHelpers.interopDefault(_YouTubeComponent);
   var _UnsplashSection = require("../UnsplashSection");
   var _UnsplashSectionDefault = _parcelHelpers.interopDefault(_UnsplashSection);
-  var _jsxFileName = "G:\\mtg_fab_anti_fraud\\Client\\reactAppSrc\\Components\\Presentation\\PageNotFoundPage\\index.jsx";
+  var _jsxFileName = "G:\\react_2021\\reactAppSrc\\Components\\Presentation\\PageNotFoundPage\\index.jsx";
   exports.default = () => /*#__PURE__*/_reactDefault.default.createElement("main", {
     className: "notFoundPage",
     __self: undefined,
@@ -31071,7 +31071,7 @@ try {
   var _CustomLink = require('../CustomLink');
   var _CustomLinkDefault = _parcelHelpers.interopDefault(_CustomLink);
   require('./CustomFooter.css');
-  var _jsxFileName = "G:\\mtg_fab_anti_fraud\\Client\\reactAppSrc\\Components\\Presentation\\CustomFooter\\index.jsx";
+  var _jsxFileName = "G:\\react_2021\\reactAppSrc\\Components\\Presentation\\CustomFooter\\index.jsx";
   exports.default = () => /*#__PURE__*/_reactDefault.default.createElement("footer", {
     __self: undefined,
     __source: {
@@ -31136,7 +31136,7 @@ try {
   _parcelHelpers.defineInteropFlag(exports);
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
-  var _jsxFileName = "G:\\mtg_fab_anti_fraud\\Client\\reactAppSrc\\Components\\Presentation\\CustomLink\\index.jsx";
+  var _jsxFileName = "G:\\react_2021\\reactAppSrc\\Components\\Presentation\\CustomLink\\index.jsx";
   exports.default = ({url, label}) => /*#__PURE__*/_reactDefault.default.createElement("a", {
     href: url,
     rel: "nofollow noopener noreferrer",

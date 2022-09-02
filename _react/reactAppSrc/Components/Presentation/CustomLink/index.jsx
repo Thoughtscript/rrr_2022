@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 /**
  *  Custom anchor boilerplate with rel security.
