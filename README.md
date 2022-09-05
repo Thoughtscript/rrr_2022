@@ -107,7 +107,7 @@ rails db:reset
 
 Create Model and Table:
 
-``ZSH
+```ZSH
 rails g model Dinosaur name:text
 ```
 
