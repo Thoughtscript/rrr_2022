@@ -3,4 +3,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  get '/dinosaurs', to: 'dinosaurs#list'
+  get '/dinosaurs/:id', to: 'dinosaurs#getOne'
+  post '/dinosaurs', to: 'dinosaurs#create'
+
+  resources :dinosaurs
 end

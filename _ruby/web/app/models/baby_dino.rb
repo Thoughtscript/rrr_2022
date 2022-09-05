@@ -1,0 +1,2 @@
+class BabyDino < ApplicationRecord
+end

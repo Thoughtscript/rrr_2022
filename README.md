@@ -103,12 +103,19 @@ rails db:setup
 # rake db:seed
 
 rails db:reset
-````
+```
 
 Create Model and Table:
 
 ```ZSH
 rails g model Dinosaur name:text
+rails g model BabyDino name:text
+```
+
+Create Controller:
+
+```ZSH
+rails g controller Dinosaurs
 ```
 
 ## Helpful Resources
@@ -118,3 +125,6 @@ rails g model Dinosaur name:text
 3. https://www.tutorialspoint.com/ruby-on-rails/rails-migrations.htm
 4. https://apidock.com/rails/ActiveRecord/Base/create/class
 5. https://ninjadevel.com/seeding-database-ruby-on-rails/
+6. https://www.digitalocean.com/community/tutorials/build-a-restful-json-api-with-rails-5-part-one#api-endpoints
+7. https://www.tutorialspoint.com/ruby-on-rails/rails-routes.htm
+8. https://dev.to/caicindy87/rendering-json-in-a-rails-api-25fd
