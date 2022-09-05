@@ -5684,6 +5684,7 @@ var _pageNotFoundPage = require("../../Presentation/PageNotFoundPage");
 var _pageNotFoundPageDefault = parcelHelpers.interopDefault(_pageNotFoundPage);
 var _customFooter = require("../../Presentation/CustomFooter");
 var _customFooterDefault = parcelHelpers.interopDefault(_customFooter);
+var _railsPage = require("../../Stateful/RailsPage");
 "use strict";
 exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -5691,7 +5692,7 @@ exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterD
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _customHeaderDefault.default), {}, void 0, false, {
                     fileName: "reactAppSrc/Components/Navigation/Router/index.jsx",
-                    lineNumber: 22,
+                    lineNumber: 24,
                     columnNumber: 13
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
@@ -5702,7 +5703,7 @@ exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterD
                             element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _landingPageDefault.default), {}, void 0, false, void 0, void 0)
                         }, void 0, false, {
                             fileName: "reactAppSrc/Components/Navigation/Router/index.jsx",
-                            lineNumber: 24,
+                            lineNumber: 26,
                             columnNumber: 17
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -5711,7 +5712,16 @@ exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterD
                             element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _landingPageDefault.default), {}, void 0, false, void 0, void 0)
                         }, void 0, false, {
                             fileName: "reactAppSrc/Components/Navigation/Router/index.jsx",
-                            lineNumber: 25,
+                            lineNumber: 27,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            exact: true,
+                            path: (0, _constants.API_PATH),
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _railsPage.RailsPage), {}, void 0, false, void 0, void 0)
+                        }, void 0, false, {
+                            fileName: "reactAppSrc/Components/Navigation/Router/index.jsx",
+                            lineNumber: 28,
                             columnNumber: 17
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -5719,29 +5729,29 @@ exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterD
                             element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _pageNotFoundPageDefault.default), {}, void 0, false, void 0, void 0)
                         }, void 0, false, {
                             fileName: "reactAppSrc/Components/Navigation/Router/index.jsx",
-                            lineNumber: 26,
+                            lineNumber: 29,
                             columnNumber: 17
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "reactAppSrc/Components/Navigation/Router/index.jsx",
-                    lineNumber: 23,
+                    lineNumber: 25,
                     columnNumber: 13
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _customFooterDefault.default), {}, void 0, false, {
                     fileName: "reactAppSrc/Components/Navigation/Router/index.jsx",
-                    lineNumber: 28,
+                    lineNumber: 31,
                     columnNumber: 13
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "reactAppSrc/Components/Navigation/Router/index.jsx",
-            lineNumber: 21,
+            lineNumber: 23,
             columnNumber: 9
         }, undefined)
     }, void 0, false, {
         fileName: "reactAppSrc/Components/Navigation/Router/index.jsx",
-        lineNumber: 20,
+        lineNumber: 22,
         columnNumber: 5
     }, undefined);
 
@@ -5750,7 +5760,7 @@ exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterD
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","../../Presentation/CustomHeader":"4ytKm","./Router.css":"l1i4e","../../../Constants":"1gEz6","../../Presentation/CustomFooter":"hUG8K","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../Presentation/LandingPage":"3FMDF","../../Presentation/PageNotFoundPage":"96LB1"}],"fdOAw":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","../../Presentation/CustomHeader":"4ytKm","./Router.css":"l1i4e","../../../Constants":"1gEz6","../../Presentation/CustomFooter":"hUG8K","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../Presentation/LandingPage":"3FMDF","../../Presentation/PageNotFoundPage":"96LB1","../../Stateful/RailsPage":"jiBdu"}],"fdOAw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
@@ -7547,39 +7557,65 @@ class Menu extends (0, _reactDefault.default).Component {
     constructor(props){
         super(props);
         this.home = /*#__PURE__*/ (0, _reactDefault.default).createRef();
+        this.api = /*#__PURE__*/ (0, _reactDefault.default).createRef();
     }
     render() {
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                    className: "home",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        onClick: ()=>{
-                            w = (0, _constants.BASE_PATH);
-                            this.home.current.className = "active";
-                        },
-                        ref: this.home,
-                        className: w === (0, _constants.BASE_PATH) || w === (0, _constants.HOME_PATH) ? "active" : "inactive",
-                        to: (0, _constants.BASE_PATH),
-                        children: "Home"
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "home",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            onClick: ()=>{
+                                w = (0, _constants.BASE_PATH);
+                                this.home.current.className = "active";
+                                this.api.current.className = "inactive";
+                            },
+                            ref: this.home,
+                            className: w === (0, _constants.BASE_PATH) || w === (0, _constants.HOME_PATH) ? "active" : "inactive",
+                            to: (0, _constants.BASE_PATH),
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "reactAppSrc/Components/Navigation/Menu/index.jsx",
+                            lineNumber: 27,
+                            columnNumber: 25
+                        }, this)
                     }, void 0, false, {
                         fileName: "reactAppSrc/Components/Navigation/Menu/index.jsx",
                         lineNumber: 26,
-                        columnNumber: 25
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "api",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            onClick: ()=>{
+                                w = (0, _constants.BASE_PATH);
+                                this.home.current.className = "inactive";
+                                this.api.current.className = "active";
+                            },
+                            ref: this.api,
+                            className: w === (0, _constants.API_PATH) ? "active" : "inactive",
+                            to: (0, _constants.API_PATH),
+                            children: "API"
+                        }, void 0, false, {
+                            fileName: "reactAppSrc/Components/Navigation/Menu/index.jsx",
+                            lineNumber: 38,
+                            columnNumber: 25
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "reactAppSrc/Components/Navigation/Menu/index.jsx",
+                        lineNumber: 37,
+                        columnNumber: 21
                     }, this)
-                }, void 0, false, {
-                    fileName: "reactAppSrc/Components/Navigation/Menu/index.jsx",
-                    lineNumber: 25,
-                    columnNumber: 21
-                }, this)
-            }, void 0, false, {
+                ]
+            }, void 0, true, {
                 fileName: "reactAppSrc/Components/Navigation/Menu/index.jsx",
-                lineNumber: 24,
+                lineNumber: 25,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "reactAppSrc/Components/Navigation/Menu/index.jsx",
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 13
         }, this);
     }
@@ -7595,8 +7631,10 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "BASE_PATH", ()=>BASE_PATH);
 parcelHelpers.export(exports, "HOME_PATH", ()=>HOME_PATH);
+parcelHelpers.export(exports, "API_PATH", ()=>API_PATH);
+parcelHelpers.export(exports, "RAILS_API_URL", ()=>RAILS_API_URL);
 "use strict";
-const BASE_PATH = "/", HOME_PATH = "/home";
+const BASE_PATH = "/", HOME_PATH = "/home", API_PATH = "/api", RAILS_API_URL = "http://localhost:3000/dinosaurs/";
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"km3Ru":[function(require,module,exports) {
 "use strict";
@@ -8038,7 +8076,213 @@ exports.default = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./PageNotFoundPage.css":"gGVOz","../YouTubeComponent":"18xmK","../UnsplashSection":"7nCWP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gGVOz":[function() {},{}],"hRl9m":[function() {},{}],"dEvDk":[function() {},{}],"lOjBx":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./PageNotFoundPage.css":"gGVOz","../YouTubeComponent":"18xmK","../UnsplashSection":"7nCWP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gGVOz":[function() {},{}],"jiBdu":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c8b7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c8b7.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "RailsPage", ()=>RailsPage);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+/**
+ *  RailsPage page.
+ *
+ *  @Author - Adam InTae Gerard - https://www.linkedin.com/in/adamintaegerard/
+ */ var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _unsplashSection = require("../../Presentation/UnsplashSection");
+var _unsplashSectionDefault = parcelHelpers.interopDefault(_unsplashSection);
+var _railsPageCss = require("./RailsPage.css");
+var _youTubeComponent = require("../../Presentation/YouTubeComponent");
+var _youTubeComponentDefault = parcelHelpers.interopDefault(_youTubeComponent);
+var _get = require("../../../Helpers/Xhr/Get");
+var _constants = require("../../../Constants");
+"use strict";
+class RailsPage extends (0, _reactDefault.default).Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            dinos: [],
+            ...this.props
+        };
+    }
+    componentDidMount() {
+        // Add IndexDB check here.
+        // Check time and empty array.
+        try {
+            (0, _get.asyncGet)((0, _constants.RAILS_API_URL)).then((success)=>{
+                this.setState({
+                    dinos: JSON.parse(success)
+                });
+            });
+        } catch (ex) {
+            console.log(ex);
+        }
+    }
+    render() {
+        const { dinos  } = this.state;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+            className: "landingPage",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _unsplashSectionDefault.default), {
+                    photo: "1591858219137-84737f6e8a67",
+                    ixid: "eyJhcHBfaWQiOjEyMDd9"
+                }, void 0, false, {
+                    fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+                    lineNumber: 44,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "content",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                            children: "ID"
+                                        }, void 0, false, {
+                                            fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+                                            lineNumber: 49,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                            children: "Name"
+                                        }, void 0, false, {
+                                            fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+                                            lineNumber: 50,
+                                            columnNumber: 33
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+                                    lineNumber: 48,
+                                    columnNumber: 29
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+                                lineNumber: 47,
+                                columnNumber: 25
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
+                                children: dinos.map((p)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                children: p.id
+                                            }, void 0, false, {
+                                                fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+                                                lineNumber: 57,
+                                                columnNumber: 41
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                                children: p.name
+                                            }, void 0, false, {
+                                                fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+                                                lineNumber: 58,
+                                                columnNumber: 41
+                                            }, this)
+                                        ]
+                                    }, p.id, true, {
+                                        fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+                                        lineNumber: 56,
+                                        columnNumber: 37
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+                                lineNumber: 53,
+                                columnNumber: 25
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+                        lineNumber: 46,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+                    lineNumber: 45,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _youTubeComponentDefault.default), {
+                    className: "more",
+                    url: "https://www.youtube.com/embed/W93XyXHI8Nw"
+                }, void 0, false, {
+                    fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+                    lineNumber: 65,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "reactAppSrc/Components/Stateful/RailsPage/index.jsx",
+            lineNumber: 43,
+            columnNumber: 13
+        }, this);
+    }
+}
+
+  $parcel$ReactRefreshHelpers$c8b7.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../Presentation/UnsplashSection":"7nCWP","./RailsPage.css":"8V002","../../Presentation/YouTubeComponent":"18xmK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../../Helpers/Xhr/Get":"UIh8j","../../../Constants":"1gEz6"}],"8V002":[function() {},{}],"UIh8j":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "asyncGet", ()=>asyncGet);
+/**
+ *  GET Xhr Helpers.
+ *
+ *  @Author - Adam InTae Gerard - https://www.linkedin.com/in/adamintaegerard/
+ */ var _shared = require("./Shared");
+"use strict";
+const asyncGet = (url, token)=>{
+    return new Promise((res, rej)=>{
+        const what = "asyncGet";
+        try {
+            let r = (0, _shared.restListener)(res, rej, what, "success", "fail");
+            r.open("GET", url, true);
+            if (token !== null) r.setRequestHeader("Authorization", "bearer " + token);
+            r.setRequestHeader("content-type", "application/json");
+            //r.setRequestHeader('Access-Control-Allow-Headers', '*')
+            //r.setRequestHeader('Allow-Control-Allow-Origin', '*')
+            r.withCredentials = false;
+            r.send();
+        } catch (ex) {
+            console.log((0, _shared.errMsg)(what, ex));
+        }
+    });
+};
+
+},{"./Shared":"fKtkm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fKtkm":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "errMsg", ()=>errMsg);
+parcelHelpers.export(exports, "restListener", ()=>restListener);
+"use strict";
+/**
+ *  Shared Xhr abstractions.
+ *
+ *  @Author - Adam InTae Gerard - https://www.linkedin.com/in/adamintaegerard/
+ */ const successMsg = (what, onSuccessMsg)=>what + " successful: " + onSuccessMsg + "!";
+const failMsg = (what, onFailMsg)=>what + " failed: " + onFailMsg + "!";
+const errMsg = (what, ex)=>what + " encountered an exception: " + ex + "!";
+const restListener = (res, rej, what, onSuccessMsg, onFailMsg)=>{
+    let xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = ()=>{
+        if (xhr.readyState === 4) {
+            if (xhr.status === 200) {
+                console.log(successMsg(what, onSuccessMsg));
+                return res(xhr.response);
+            } else console.log(failMsg(what, onFailMsg));
+        }
+    };
+    return xhr;
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hRl9m":[function() {},{}],"dEvDk":[function() {},{}],"lOjBx":[function(require,module,exports) {
 "use strict";
 var m = require("react-dom");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
