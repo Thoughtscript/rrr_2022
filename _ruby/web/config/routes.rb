@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   get '/dinosaurs', to: 'dinosaurs#list'
   get '/dinosaurs/:id', to: 'dinosaurs#getOne'
+  get '/dinosaurs/babydinos/:id', to: 'dinosaurs#getBabyDinos'
   post '/dinosaurs', to: 'dinosaurs#create'
 
   resources :dinosaurs

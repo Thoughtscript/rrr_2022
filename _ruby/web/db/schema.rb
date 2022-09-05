@@ -15,9 +15,11 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_05_182026) do
   enable_extension "plpgsql"
 
   create_table "baby_dinos", force: :cascade do |t|
+    t.bigint "dinosaur_id"
     t.text "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["dinosaur_id"], name: "index_baby_dinos_on_dinosaur_id"
   end
 
   create_table "dinosaurs", force: :cascade do |t|

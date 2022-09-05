@@ -15,6 +15,12 @@ class DinosaursController < ApplicationController
     render json: dinosaur
   end
 
+  # GET /dinosaurs/babyDinos/:id
+  def getBabyDinos
+    dinosaur = Dinosaur.find_by!(id: params[:id])
+    render json: dinosaur.baby_dinos
+  end
+
   # POST /dinosaurs
   def create
     jsonBodyName = request[:name]

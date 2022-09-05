@@ -128,3 +128,5 @@ rails g controller Dinosaurs
 6. https://www.digitalocean.com/community/tutorials/build-a-restful-json-api-with-rails-5-part-one#api-endpoints
 7. https://www.tutorialspoint.com/ruby-on-rails/rails-routes.htm
 8. https://dev.to/caicindy87/rendering-json-in-a-rails-api-25fd
+9. https://guides.rubyonrails.org/association_basics.html
+10. https://fullstackheroes.com/tutorials/rails/column-types/

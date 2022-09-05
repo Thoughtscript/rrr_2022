@@ -33,4 +33,15 @@ p Dinosaur.first
 
 p Dinosaur.all
 
+# Lightweight FK BabyDino -> Dino
+# Does not enforce referential integrity - no cascade
+# (Only uses belong_to / has_many)
+
+a.baby_dinos.create!(name: "littlesteggo", dinosaur_id: 1)
+puts a.baby_dinos
+
+BabyDino.create!(name: "littletrex", dinosaur_id: 2)
+
+BabyDino.create!(name: "littletrex", dinosaur_id: a.id)
+
 puts "Seeding done."
