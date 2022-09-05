@@ -50,8 +50,19 @@ Start it up:
 ```ZSH
 npm run build-parcel-prod
 npm run build-parcel
+cd dist
 npx serve
 ```
+
+One gotcha: https://github.com/parcel-bundler/parcel/issues/7636. If you add to [package.json](./_react/package.json)
+
+```JSON
+  "engines": {
+    "node": "=16.17.0"
+  }
+```
+
+You'll get: `@parcel/packager-js: External modules are not supported when building for browser`. Remove the `engines` field.
 
 > By default, NPX and parcel will serve from: http://localhost:1234/
 
@@ -68,12 +79,42 @@ nom run stop-linux
 
 ```ZSH
 rails db:create
+rails db:migrate
+rake db:seed
 rails server --binding=127.0.0.1
 ```
 
 > By default, the Ruby on Rails server will server from: http://localhost:3000/
 
+Migrations:
+
+```ZSH
+bin/rails generate migration ExampleMigration
+rails db:migrate
+# rake db:migrate
+```
+
+Reset DB:
+```ZSH
+# run migration and seeding
+rails db:setup 
+# rails db:create
+# rails db:migrate
+# rake db:seed
+
+rails db:reset
+````
+
+Create Model and Table:
+
+``ZSH
+rails g model Dinosaur name:text
+```
+
 ## Helpful Resources
 
 1. https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-macos
 2. https://bobbyhadz.com/blog/react-router-not-found-page
+3. https://www.tutorialspoint.com/ruby-on-rails/rails-migrations.htm
+4. https://apidock.com/rails/ActiveRecord/Base/create/class
+5. https://ninjadevel.com/seeding-database-ruby-on-rails/

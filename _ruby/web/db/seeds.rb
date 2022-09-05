@@ -5,3 +5,32 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+# Will automatically look in app/models directory.
+# require_relative '../app/models/dinosaur.rb'
+
+puts "Seeding..."
+
+a = Dinosaur.new(:name => "bronti")
+puts a.speak
+puts a.name
+# Constructor does not save automatically.
+a.save
+
+# Using symbol hash.
+Dinosaur.create(:name => "steggo")
+
+# Using validation with !
+Dinosaur.create!(name: "steggo")
+Dinosaur.create!(name: "trex")
+Dinosaur.create!(name: "fishlizard")
+
+# Will fail since :random is not defined.
+# Remember that basic accessors, getters, setters come out of box on Active Record models.
+# Dinosaur.create(:name => "steggo", :random => "test")
+
+p Dinosaur.first
+
+p Dinosaur.all
+
+puts "Seeding done."
