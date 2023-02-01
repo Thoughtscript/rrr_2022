@@ -61,42 +61,6 @@ nav > ul > li > a:hover {
   left: 0;
 }
 
-footer {
-  height: 300px;
-  width: 100%;
-  background: #283c86;
-  background: -webkit-linear-gradient(to right, #283c86, #45a247);
-  opacity: .9;
-  background: linear-gradient(to right, #283c86, #45a247);
-  border-top: 1px solid #000;
-  position: absolute;
-  box-shadow: 2px 5px 5px 9px #000;
-}
-
-footer > ul {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-}
-
-footer > ul > li {
-  list-style: none;
-  display: inline-block;
-}
-
-footer > ul > li > a {
-  color: #fff;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 18px;
-  text-decoration: none;
-}
-
-footer > ul > li > a:hover {
-  opacity: .8;
-  text-decoration: underline;
-}
-
 .unsplash {
   width: 100%;
   height: 800px;
@@ -159,6 +123,42 @@ main.notFoundPage > .content > .text {
   position: relative;
   top: 400px;
   left: 25%;
+}
+
+footer {
+  height: 300px;
+  width: 100%;
+  background: #283c86;
+  background: -webkit-linear-gradient(to right, #283c86, #45a247);
+  opacity: .9;
+  background: linear-gradient(to right, #283c86, #45a247);
+  border-top: 1px solid #000;
+  position: absolute;
+  box-shadow: 2px 5px 5px 9px #000;
+}
+
+footer > ul {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+footer > ul > li {
+  list-style: none;
+  display: inline-block;
+}
+
+footer > ul > li > a {
+  color: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+footer > ul > li > a:hover {
+  opacity: .8;
+  text-decoration: underline;
 }
 
 main.landingPage > .content {
