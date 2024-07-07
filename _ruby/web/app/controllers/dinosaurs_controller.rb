@@ -23,7 +23,8 @@ class DinosaursController < ApplicationController
 
   # POST /dinosaurs
   def create
-    jsonBodyName = request[:name]
+    # https://guides.rubyonrails.org/action_controller_overview.html#json-parameters
+    jsonBodyName = params[:name]
     dinosaur = Dinosaur.create!(:name => jsonBodyName)
     render json: dinosaur
   end
